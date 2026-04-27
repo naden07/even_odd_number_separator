@@ -13,7 +13,7 @@ class ParityApp:
         self.output_odd = "odd.txt"
 
     def start(self):
-        print("🔍 Reading numbers.txt...")
+        print("Reading numbers.txt...")
         try:
             # 1. Load data
             all_numbers = self.handler.read_integers()
