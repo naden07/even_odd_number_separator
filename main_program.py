@@ -31,7 +31,7 @@ class ParityApp:
             print(f"Created {self.output_odd} with {len(odd_numbers)} integers.")
 
         except Exception as error:
-            print(f"❌ Error occurred: {error}")
+            print(f"Error occurred: {error}")
 
 
 if __name__ == "__main__":
